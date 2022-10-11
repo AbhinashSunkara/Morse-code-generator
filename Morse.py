@@ -53,7 +53,7 @@ def sub():
             e1.place(relx=0.7,rely=0.3,anchor=CENTER)
         Button(root1,text="Submit",bg="#fdde6c", fg="#000", font="verdana 12 bold ",command=subm).place(relx=0.3,rely=0.6,anchor=CENTER)
         Button(root1,text="Clear",bg="#fdde6c", fg="#000", font="verdana 12 bold ",command=cl).place(relx=0.6,rely=0.6,anchor=CENTER)
-        l6=Label(root1,text="Note : Make sure the text does not contain any special symbols or numbers", bg="#ffffe0", fg="#E74C3C",font="verdana 12 bold")
+        l6=Label(root1,text="Note : Make sure the text does not contain any special symbols or digits", bg="#ffffe0", fg="#E74C3C",font="verdana 12 bold")
         l6.place(relx=0.5,rely=0.8,anchor=CENTER)
     elif(pay==2):
         root1.title("Text generator")
